@@ -2,7 +2,6 @@
 set -ex
 #Importamos el archivo .env
 source .env
-
 #Copiamos la "plantilla" del archivo de configuración de apache
 cp ../conf/000-default.conf /etc/apache2/sites-available/000-default.conf
 #Modificamos el valor del Servername
