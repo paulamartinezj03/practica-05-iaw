@@ -18,4 +18,4 @@ apt remove certbot -y
 snap install --classic certbot
 ## Obtenemos el certificado y configuramos el servidor Apache
 sudo certbot --apache -m $CERTBOT_EMAIL --agree-tos --no-eff-email -d $CERTBOT_DOMAIN --non-interactive
-![](/practica-05-iaw/images/letsencrypt.png)
+![](images/letsencrypt.png)
